@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+    font-family: 'Abel';;
+    
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
+    font-family: 'Abel';
+    color: black;
+    border: 5px solid #000000;
+    padding: px;
+    background-color: #FBB03B;
+    margin-top: 100px;
+    height: 3000px;
+
+}
+
+.letter-container{
+    
+    text-align: center;
+    font-size: 300px;
+    height:1000px;
+    width:1000;
+    
+    color:white;
+
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+    text-align: left;
+    font-size: 20px;
+    display: block;
+    float: left;
+    
+    
+}
+
+.button_line {
+    float:top;
+    width:200px;
+
+    
+}
+.sample_set {
+    display: block;
+    width: 20px;
+    height: 2800px;
+    float: left;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin:25px
+    
+    
+    
+    
+    
+}
+
+.photo_container{
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    padding: 20px;
+    float: right;
+    background-color:antiquewhite;
+    
+    
+}
+.info-section{
+    display:block;
+    width: 400px;
+    
+    
+    
+}
+
+
+.photo-title{
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    margin-right: 77px;
+    text-align: center;
+}
+
+
+.sources {
+    
+    
+    
+}
+
+.menu {
+    height: 100px;
+    background-color: azure;
+}
+
+.sidebar{
+    float:left;
+    height: 2750px;
+    background-color: darkgrey;
+    margin-right: 30px;
+    
+    
+}
+
+.content{
+
+    /= float allows to move objects next to the last item on an assigned side =/
+    
+    float:left;
+    height:500 px;
+    width: 500 px;
+    
+}
+
+.footer{
+    width: 400px;
+    height: 200px;
+    background-color: navajowhite;
+    
+}
+
+/= useful tools =/
+justify-content: flex-start, flex-end, space-around,
+align-items: baseline, stretch, center, flex-end, justify
+display:flex / in-line flex;
+margin-left/right/bottom/top
+height:
+width:
+background-color: 
+transform:rotate;
+position: absolute, relative;
+top:;
+transform:rotate(270deg);
