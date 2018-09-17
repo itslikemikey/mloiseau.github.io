@@ -1,86 +1,105 @@
 body {
     background-color: black;
-    font-family: 'Abel';;
+    font-family: 'Abel';
+    margin:20;
     
 }
+
 
 .container{
     margin-left: auto;
     margin-right: auto;
-    width:1000px;
+    width:1390;
     font-family: 'Abel';
     color: black;
     border: 5px solid #000000;
-    padding: px;
+    padding-top: 0px;
     background-color: #FBB03B;
-    margin-top: 100px;
-    height: 3000px;
+    margin-top: 0px;
+    height: 1800px;
 
 }
 
-.letter-container{
+.space-container{
     
     text-align: center;
-    font-size: 300px;
-    height:1000px;
-    width:1000;
+    width: 1000;
     
+}
+
+/* Letter & Button */
+.big-letter{
+    margin-right: 300px;
+    margin-top: 300px;
+    font-size: 950px;
+    text-align: center;
     color:white;
-
+    object-position: center;
+    margin-bottom: -250;
+ 
+    
 }
 
-.button {
-    width: 100px;
-    height: 50px;
-    text-align: left;
-    font-size: 20px;
-    display: block;
+
+.letter-container{
+    display:flex;
+    align-items:baseline;
+    
+    
+}
+
+
+#button {
+
+    margin-top: 775px;
+    width: 200px;
+    height: 200px;
     float: left;
-    
-    
-}
-
-.button_line {
-    float:top;
-    width:200px;
-
-    
-}
-.sample_set {
+    font-size: 60px;
+    z-index: 30;
+    text-decoration: underline;
+    position: relative;
     display: block;
+    background-color: #FBB03B;
+    A:hover {color:white;text-decoration:underline;font-weight:none}
+    
+}
+
+
+/* Sidebar & Sample Set */
+
+.sample-set {
+    display: inline-block;
     width: 20px;
     height: 2800px;
     float: left;
-    font-size: 40px;
+    font-size: 37px;
     color: white;
     text-align: center;
-    margin:25px
-    
-    
-    
-    
-    
+    margin:25px;
 }
 
-.photo_container{
-    margin: 100px;
+.sidebar{
+    display:flex;
+    float:left;
+    height: 1800px;
+    background-color: #bb832c;
+    margin-right: 40px;
+}
+
+
+/*Photo*/
+
+.photo-container{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 0px;
     width: 200px;
     height: 200px;
-    border: 10px solid black;
-    padding: 20px;
+    border-radius: 40px;
     float: right;
-    background-color:antiquewhite;
-    
-    
+    background-color:#fbc36c;
 }
-.info-section{
-    display:block;
-    width: 400px;
-    
-    
-    
-}
-
 
 .photo-title{
     margin-top: 25px;
@@ -90,43 +109,105 @@ body {
     text-align: center;
 }
 
+/*info & sources */
+
+.info-section{
+    float:left;
+    align-content: left;
+    display:block;
+    width: 500px;
+    font-size: 18px;
+    margin-top: -50px;
+   
+}
 
 .sources {
-    
-    
-    
+    display:block;
+    align-content: bottom;
+    align-content: right;
+    text-align: right;
+    margin-right:50px;
+    font-size: 18px;
 }
 
-.menu {
-    height: 100px;
-    background-color: azure;
-}
-
-.sidebar{
-    float:left;
-    height: 2750px;
-    background-color: darkgrey;
-    margin-right: 30px;
-    
-    
-}
-
-.content{
-
-    /= float allows to move objects next to the last item on an assigned side =/
+.sub-abel{
     
     float:left;
-    height:500 px;
-    width: 500 px;
+    font-size:30;
+    color:#bb832c;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.typeface-ABEL1{
+    
+    display: flex;
+    float:right;
+    margin-right:50px;
+    font-size:160px;
+    text-align: right;
+    color:white;
+    margin-top:30px;
+    margin-bottom:-60;
+}
+
+.typeface-ABEL2{
+    
+    float:right;
+    margin-right:50px;
+    font-size:160px;
+    text-align: right;
+    color:black;
+    display: flex;
+    margin-bottom: -20
+}
+
+.myinfo{
+    
+    transform:rotate(270deg);
+    text-align: right;
+    margin-top: 115px;
+    float:right;
+    margin-right: -40;
+}
+
+.line-bottom{
+    
+    color:black;
+    width:620px;
+    float:right;
+    margin-right:50px;
+    text-align: right;
+    font-size: 18px;
+    margin-top: 30
+}
+    
+
+
+.analysis {
+    position:absolute;
+    z-index:20;
+    top: ;
+    left: ;
+}
+
+.image{
+    image
+}
+
+.empty-analysis{
+    =hidden
+   
+
+}
+
+.analysis{
+    =visible
     
 }
 
-.footer{
-    width: 400px;
-    height: 200px;
-    background-color: navajowhite;
-    
-}
+
+/*
 
 /= useful tools =/
 justify-content: flex-start, flex-end, space-around,
@@ -140,3 +221,6 @@ transform:rotate;
 position: absolute, relative;
 top:;
 transform:rotate(270deg);
+ /= float allows to move objects next to the last item on an assigned side =/ 
+
+*/
