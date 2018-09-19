@@ -17,13 +17,13 @@ body {
     background-color: #FBB03B;
     margin-top: 0px;
     height: 1800px;
-
+    z-index: 0;
 }
 
 .space-container{
     
     text-align: center;
-    width: 1000;
+    width: 1000px;
     
 }
 
@@ -50,16 +50,22 @@ body {
 
 
 #button {
+    border: none;
+    margin-top: 800px;
     margin-left: 100px;
     width: 200px;
     height: 200px;
     float: left;
     font-size: 60px;
-    z-index: 30;
+    z-index: 40;
     text-decoration: underline;
     position: relative;
     display: inline-block;
     background-color: #FBB03B;
+    
+   
+   
+    
 
 }
 
@@ -182,26 +188,23 @@ body {
     margin-top: 30
 }
 
-.image{
-    image
-}
-
 .empty-analysis{
-    =hidden
-   
-
+    
+    position: absolute;
+    z-index:25;
+    top: 584px;
+    left: 59px;   
 }
 
 .analysis{
     position: absolute;
-    z-index:20;
-    top: 583px;
-    left: 20px;    
+    z-index:26;
+    top: 584px;
+    left: 59px;    
 }
 
 
 /*
-
 /= useful tools =/
 justify-content: flex-start, flex-end, space-around,
 align-items: baseline, stretch, center, flex-end, justify
@@ -215,5 +218,4 @@ position: absolute, relative;
 top:;
 transform:rotate(270deg);
  /= float allows to move objects next to the last item on an assigned side =/ 
-
 */
