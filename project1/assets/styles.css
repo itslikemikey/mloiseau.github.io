@@ -50,6 +50,7 @@ body {
 
 
 #button {
+    
     border: none;
     margin-top: 800px;
     margin-left: 100px;
@@ -62,10 +63,6 @@ body {
     position: relative;
     display: inline-block;
     background-color: #FBB03B;
-    
-   
-   
-    
 
 }
 
@@ -188,19 +185,11 @@ body {
     margin-top: 30
 }
 
-.empty-analysis{
-    
-    position: absolute;
-    z-index:25;
-    top: 584px;
-    left: 59px;   
-}
-
 .analysis{
     position: absolute;
     z-index:26;
-    top: 584px;
-    left: 59px;    
+    top: 585px;
+    left: 64px;    
 }
 
 
