@@ -50,8 +50,7 @@ body {
 
 
 #button {
-
-    margin-top: 775px;
+    margin-left: 100px;
     width: 200px;
     height: 200px;
     float: left;
@@ -59,7 +58,7 @@ body {
     z-index: 30;
     text-decoration: underline;
     position: relative;
-    display: block;
+    display: inline-block;
     background-color: #FBB03B;
 
 }
@@ -182,15 +181,6 @@ body {
     font-size: 18px;
     margin-top: 30
 }
-    
-
-
-.analysis {
-    position:absolute;
-    z-index:20;
-    top: ;
-    left: ;
-}
 
 .image{
     image
@@ -203,8 +193,10 @@ body {
 }
 
 .analysis{
-    =visible
-    
+    position: absolute;
+    z-index:20;
+    top: 583px;
+    left: 20px;    
 }
 
 
