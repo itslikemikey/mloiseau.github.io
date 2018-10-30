@@ -1,0 +1,12 @@
+ol.questions{
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+ol.questions img{
+    width:50%;
+    position:absolute;
+    top:0;
+}

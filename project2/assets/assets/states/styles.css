@@ -1,0 +1,257 @@
+* {margin:0px;
+}
+* {font-family:'Bebas Neue'}
+body {
+    background-color: white;
+    font-family: 'Abel';
+    margin:20;
+}
+
+.headingcontainer{
+    background-color: white;
+    text-align: center;
+    height: 100px;
+    width: auto;
+}
+.wrapper1{
+    display:flex;
+    
+}
+.title{
+    
+   margin-left:75px;
+    padding:2px;
+    background-color: white;
+    text-align: left;
+    font-size: 100px;
+    width:80%;
+    display:flex;
+    
+}
+
+.homebutton {
+   text-align: right;
+    font-size: 40px;
+    width:85px;
+    height:50px;
+    margin-top: 60;
+    margin-left: 50;
+    background-color: white;
+    border: none;
+    
+}
+
+.wrapper2{
+    display:flex;
+    
+}
+.arrowleft{
+    width:5%;
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+.contentcontainer{
+    border-style:solid;
+    border-color: black;
+margin-left:100px;
+margin: 10px;
+background-color: white;
+    width:90%;
+height: auto;
+
+font-style: bold;
+font-size: 50px;
+    align-content: center;
+}
+
+.arrowright{
+    width:5%;
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.statename{
+    background-color:white;
+    font-size: 50px;
+    margin: 10px;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.mapleft{
+    
+    float:left;
+    width:400px;
+    height:400px;
+}
+
+.map{
+    float:;
+    
+}
+.image{
+    
+    text-align: center;
+    background-color: white;
+    margin-top:5px;
+    height: 300px;
+    width:300px;
+    font-size: 20px;
+}
+
+.instructions{
+    float:left;
+    margin-left: 10px;
+}
+
+.moreinfo{
+    float:right;
+    margin: 10px;
+    height:90px;
+    width:150px;
+    font-size:30;
+    background-color: white;
+    border:none;
+    
+}
+.wrapper3{
+    display:flex;
+    
+    
+}
+
+.menuleft{
+    
+    width:30%;
+    
+}
+.vertical-menu1 {
+    width: 150px; /* Set a width if you like */
+    float:left;
+}
+
+.vertical-menu1 a {
+    margin-left: 25px;
+    width: 100px;
+    background-color: white; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 2px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+/*    float:left;*/
+}
+
+.vertical-menu1 a:hover {
+    background-color: white; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu1 a.active {
+    background-color: white; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.vertical-menu2 {
+    width: 150px; /* Set a width if you like */
+    float:left;
+}
+
+.vertical-menu2 a {
+    margin-left: 50px;
+    width: 100px;
+    background-color: white; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 2px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+/*    float:left;*/
+}
+
+.vertical-menu2 a:hover {
+    background-color: white; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu2 a.active {
+    background-color: white; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.vertical-menu3 {
+    width: 150px; /* Set a width if you like */
+    float:left;
+}
+
+.vertical-menu3 a {
+    margin-left: 75px;
+    width: 100px;
+    background-color: white; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 2px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+/*    float:left;*/
+}
+
+.vertical-menu3 a:hover {
+    background-color: white; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu3 a.active {
+    background-color: white; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.vertical-menu4 {
+    width: 150px; /* Set a width if you like */
+    float:left;
+}
+
+.vertical-menu4 a {
+    margin-left: 100px;
+    width: 100px;
+    background-color: white; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 2px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+/*    float:left;*/
+}
+
+.vertical-menu4 a:hover {
+    background-color: white; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu4 a.active {
+    background-color: white; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+.row::after {
+  display:flex;
+  content: "";
+  clear: both;
+}
+
+.footercontainer1{
+    padding: 70px;
+}
+
+.footercontainer2{
+    text-align: center;
+   
+    }

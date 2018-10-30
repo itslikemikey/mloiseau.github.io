@@ -51,7 +51,8 @@ body {
 
 #button {
     
-    border: none;
+    border-radius: 30px;
+    border-radius: 30px;
     margin-top: 800px;
     margin-left: 100px;
     width: 200px;
@@ -63,6 +64,7 @@ body {
     position: relative;
     display: inline-block;
     background-color: #FBB03B;
+    
 
 }
 
