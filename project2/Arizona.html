@@ -1,13 +1,19 @@
 <! DOCTYPE html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <head> 
     
 <title>50 States </title>
 <link rel="stylesheet" href="styles.css"> 
 <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="assets/jquery.cycle2.min.js"></script>
+<script src="assets/assets/jquery.cycle2.min.js"></script>
+   
+
     
 </head>
+
 <html>
 
 <body>
@@ -20,15 +26,21 @@
     <div class = "title"> 
         50 States
     </div>
-    
-    <a class="button" href="index.html">Home</a>
+    <div class = "title-right">
         
+    </div>
+    
+    <a class="quiz" href="quiz.html">Quiz</a>    
+        
+    <a class="button" href="index.html">Home</a>
+            
     </div>
     
     <div class = "wrapper2">
     
-    <a class="arrowleft" href="Alaska.html">Previous</a>
-    
+    <a class = "arrowleft" href="Alaska.html">
+        Previous
+    </a>
     <div class = "contentcontainer"> 
 
         <div class = "statename">
@@ -44,25 +56,58 @@
         <div class = "map">
             <img src="assets/assets/stateimages/Arizona.png">
         </div>   
-        <div class = "instructions">
+        <div class = "button-left">
         
         </div>
-        
-        <button class = "moreinfo">
-            More Info
+        <button id="myBtn">
+           More Info
         </button>
         
         </div>
-
-    <a class="arrowright" href="Arkansas.html">Next</a>
+        <a class = "arrowright" href="Arkansas.html">
+        Next
+        </a>
         
-    </div>
+        <div id="myModal" class="modal">
+            
+            <div class="modal-content">
+                
+            <div class="modal-header">
+                
+                <span class="close">&times;</span>
+                <h1>Arizona</h1>
+                
+            </div>
+            
+            <div class="modal-body">
+                <div class = "modal-left">
+                
+                </div>
+            <img src="assets/assets/stateimages/Arizona.png">
+                
+                <p>Capital: Phoenix
+                </p>
+                <br>
+                <p></p>
+                <br>
+                <p>Click on the pages to learn more about each state and then take the quiz above to test your knowledge!</p>
+                <div class = "modal-right">
+                
+                </div>
+            </div>
+                
+        </div>
+            
+        </div>
+        
+        </div>
+
+   
+    
 
 <div class = "wrapper3">
     
 <div class = "menuleft">
-    
-    
     
     </div>
    
@@ -82,7 +127,7 @@
   <a href="Hawaii.html">Hawaii</a>
   <a href="Idaho.html">Idaho</a>
   <a href="Illinois.html">Illinois</a>
-</div>
+    </div>
     
 <div class = "vertical-menu2">
     
@@ -115,7 +160,6 @@
     <a href="Oklahoma.html">Oklahoma</a>
     <a href="Oregon.html">Oregon</a>
     <a href="Pennsylvania.html">Pennsylvania</a>
-    
     </div>    
     
 <div class = "vertical-menu4">
@@ -132,31 +176,31 @@
     <a href="Westvirginia.html">West Virginia</a>
     <a href="Wisconsin.html">Wisconsin</a>
     <a href="Wyoming.html">Wyoming</a>
-    
-<div class = "menuright">
+    </div>
     
 
     
     </div>
     
+    <div class = "menuright">
+
     </div>
     
-    </div>
-    
-    </div>
-    
+    </div>    
     
     <div class = "footercontainer1">
         <hr>
         <br>
-        <iframe src="http://free.timeanddate.com/clock/i6g5hkcm/n64/tcf90/pc9f0/ftbi/tt0/td1/th2/ta1/tb2" frameborder="0" width="348" height="18"></iframe>
-    
+        
     </div>
     
     <div class = "footercontainer2">
         "50 States"
     </div>
-
-
     
     </body>    
+    
+    
+     <script src="popup.js"></script>
+    
+</html>

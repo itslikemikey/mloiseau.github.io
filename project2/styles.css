@@ -1,10 +1,12 @@
-* {margin:0px;}
+* {margin:0;}
 * {font-family:'Bebas Neue';}
+* {font-size-adjust: auto;}
 
 body {
     background-color: white;
     font-family: 'Abel', 'Arial', 'Bebas Neue';
-    margin:20px;
+    height:100%;
+    width:100%;
     z-index:0;
 }
 
@@ -21,13 +23,21 @@ body {
 
 .title{
     
-   margin-left:5%;
+    margin-left:27%;
     padding:2px;
     background-color: white;
     text-align: left;
     font-size: 100px;
-    width:70%;
-    display:flex;
+    width:400;
+    display: block;
+    
+    
+}
+
+.title-right{
+    
+    width:3%;
+    
     
 }
 
@@ -58,71 +68,75 @@ body {
 
 .wrapper2{
     display:flex;
+    
+    
 }
 
 .arrowleft{
-    width:5%;
+    width:25%;
     background-color: white; /* Green */
     border: none;
     color: black;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     vertical-align: middle;
     line-height: 45;
+  
 }
 
 .contentcontainer{
     border-style:solid;
     border-color: black;
     background-color: white;
-    width:90%;
+    width:50%;
     height: auto;
     font-style: bold;
     font-size: 50px;
     align-content: center;
+    position:relative;
+    vertical-align: middle;
 }
 
 .arrowright{
-    width:5%;
+    width:25%;
     background-color: white; /* Green */
     border: none;
     color: black;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     vertical-align: middle;
     line-height: 45;
+    
+    
 }
 
 .statename{
+    text-align: center;
     background-color:white;
     font-size: 50px;
     margin: 15px;
 }
 
 img{
-    max-height: 90%;
-    max-width: 90%;
+    max-height: 85%;
+    max-width: 85%;
 }
 
 .mapleft{
     float:left;
-    width:33%;
-    height:30%;
 }
 
 .map{
-    height:500px;    
+    text-align: center;
+    height:inherit; 
+    width:100%;
 }
 
 .mapright{
-    float:right;
-    width:30%;
+    float:left;
+    width:36%;
     height:30%;
 }
 
@@ -153,13 +167,15 @@ img{
 
 .wrapper3{
     display:flex;
+    text-align: center;
 }
 
 .menuleft{
-    width: 31.33333333%;
+    width: 30%;
 }
 
 .vertical-menu1 {
+    margin-top: 30px;
     width: 150px; /* Set a width if you like */
     float:left;
 }
@@ -185,6 +201,7 @@ img{
 }
 
 .vertical-menu2 {
+    margin-top: 30px;
     width: 150px; /* Set a width if you like */
     float:left;
 }
@@ -210,6 +227,7 @@ img{
 }
 
 .vertical-menu3 {
+    margin-top: 30px;
     width: 150px; /* Set a width if you like */
     float:left;
 }
@@ -235,7 +253,8 @@ img{
 }
 
 .vertical-menu4 {
-    width: 150px; /* Set a width if you like */
+    margin-top: 30px;
+    width: 15px; /* Set a width if you like */
     float:left;
 }
 
@@ -257,6 +276,11 @@ img{
 .vertical-menu4 a.active {
     background-color: white; /* Add a green color to the "active/current" link */
     color: white;
+}
+
+.menuright{
+    width:33.333333%;
+    
 }
 
 .row::after {
@@ -282,16 +306,23 @@ img{
     background-color: white;
     border: none;
 }
-
-.myBtn{
+.button-left{
+    
+    margin-left: 25%;
+    
+}
+#myBtn{
+    text-align: center;
     border:none;
-    height:100px;
-    width:150px;
+    height:10%;
+    width:30%;
     font-size: 30px;
     background-color: black;
     color:white;
-    margin:20px;
+    margin-left:35%;
     border-color: black;
+    
+    
 }
 
 /* The Modal (background) */
@@ -328,6 +359,7 @@ img{
 
 /* Modal Content/Box */
 .modal-body{
+
     font-family: 'Helvetica';
     font-size: 20;
     background-color: #fefefe;
@@ -337,6 +369,8 @@ img{
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s;
+    text-align: center;
+    
 }
 
 @-webkit-keyframes animatetop {
@@ -350,7 +384,17 @@ img{
 }
 
 
+.modal-left{
+    
+    float: left;
+    
+}
 
+.modal-right{
+    
+    float: left;
+    
+}
 /* The Close Button */
 .close{
     color: #aaa;
