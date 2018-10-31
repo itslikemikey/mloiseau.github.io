@@ -38,13 +38,13 @@
     
     <div class = "wrapper2">
     
-    <a class = "arrowleft">
+    <a class = "arrowleft" >
         
     </a>
     <div class = "contentcontainer"> 
 
         <div class = "statename">
-        <p>The United States</p>
+        <p>Quiz: United States</p>
         </div>
         <div class = "state">
         
@@ -54,18 +54,29 @@
         </div>
              
         <div class = "map">
-            <img src="assets/assets/stateimages/50States.png">
+            
+            <div id='quiz'></div>
+    		<div class='buttonq' id='next'><a href='#'>Next</a></div>
+    		<div class='buttonq' id='prev'><a href='#'>Prev</a></div>
+    		<div class='buttonq' id='start'> <a href='#'>Start Over</a></div>
+    		<!-- <button class='' id='next'>Next</a></button>
+    		<button class='' id='prev'>Prev</a></button>
+    		<button class='' id='start'> Start Over</a></button> -->
+    	</div>
+
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+		<script type="text/javascript" src='questions.json'></script>
+		<script type='text/javascript' src='jsquiz.js'></script>
+            
         </div>   
         <div class = "button-left">
         
         </div>
-        <button id="myBtn">
-           More Info
-        </button>
+    
         
         </div>
-        <a class = "arrowright" href="Alabama.html">
-        Next
+        <a class = "arrowright">
+        
         </a>
         
         <div id="myModal" class="modal">
@@ -75,7 +86,7 @@
             <div class="modal-header">
                 
                 <span class="close">&times;</span>
-                <h1>The United States</h1>
+                <h1>Quiz</h1>
                 
             </div>
             
@@ -85,8 +96,10 @@
                 </div>
             <img src="assets/assets/stateimages/50States.png">
                 
-                <p>This is a site that will help you learn about our 50 states!
+                <p>
                 </p>
+                <br>
+                <p></p>
                 <br>
                 <p>Click on the pages to learn more about each state and then take the quiz above to test your knowledge!</p>
                 <div class = "modal-right">
@@ -98,7 +111,7 @@
             
         </div>
         
-        </div>
+       
 
    
     
@@ -135,7 +148,7 @@
     <a href="Kentucky.html">Kentucky</a>
     <a href="Louisiana.html">Louisiana</a>
     <a href="Maine.html">Maine</a>
-    <a href="Maryland.html">Maryland</a>
+    <a href="Maryland.html#">Maryland</a>
     <a href="Massachusetts.html">Massachusetts</a>
     <a href="Michigan.html">Michigan</a>
     <a href="Minnesota.html">Minnesota</a>
@@ -199,6 +212,6 @@
     </body>    
     
     
-     <script src="popup.js"></script>
+     <script src="slickQuiz-config.js"></script>
     
 </html>
