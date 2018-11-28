@@ -1,0 +1,17 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Michael Loiseau",
+  "license": "MIT",
+  "dependencies": {
+    "node": "^11.1.0",
+    "node-sass": "^4.10.0",
+    "sass": "^1.15.1"
+  },
+  "devDependencies": {}
+}
